@@ -1,4 +1,4 @@
---ÎªÈÕÆÚÔö¼Óµ±Ç°Ê±¼ä
+--ä¸ºæ—¥æœŸå¢åŠ å½“å‰æ—¶é—´
 declare @tt datetime
 select @tt = convert(datetime,'2017-10-20 00:00:00')
 select @tt =  Convert(varchar(11),@tt,120) + Convert(varchar,getdate(),108)
